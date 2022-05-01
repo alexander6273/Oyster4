@@ -11,6 +11,7 @@ public class Main
         int i = text.indexOf(pattern);
         while(i >= 0)
         {
+            //adding occurrence to array
             tempArr[countTimes] = i;
 
             //the loop stops here if there are no more occurrences of the pattern
